@@ -13,16 +13,12 @@ The evaluation metrics corresponding to each model, or combination of models, is
 
 Finally, the Precision-Recall and ROC Curves of all models are plotted for more convinience.
 
-<br>
-
 ## Installation
 First, you need to clone this repository to your local machine via the following command:
 ```shell
 $ git clone https://github.com/aylinghsr/Fraud_Detection.git
 ```
 In case you don't have `git` installed on your computer, you can download the zip file of this repository and then, extract it.
-
-<br>
 
 ## Requirements
 This project is written in Python3 and requires Scikit-learn, Pandas, and Numpy libraries.
@@ -38,9 +34,6 @@ $ python -m pip install -r requirements.txt
 Also, the dataset (.csv file) should be downloaded on your computer.
 
 Dataset: [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-
-<br>
-
 
 ## Usage
 Run:
