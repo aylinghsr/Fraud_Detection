@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection using Machine Learning methods
 
 ## Introduction
-In this project, the aim is to import and use several ML models on [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) (on Kaggle) in order to classify fraudulent and non-fraudulent transactions and compare their performances based on how well they can distinguish fraudulent transactions, rather than merely calculating accuracy-scores.
+In this project, the aim is to import and use several ML models on [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) (on [Kaggle](https://www.kaggle.com/)) in order to classify fraudulent and non-fraudulent transactions and compare their performances based on how well they can distinguish fraudulent transactions, rather than merely calculating accuracy-scores.
 
 Since only 0.17% of the transaction records in this dataset are fraudulent, it is not plausible to adopt accuracy-score as the evaluation metric. Although, this metric is calculated, other metrics, such as precision and f1-score, are also used.
 
