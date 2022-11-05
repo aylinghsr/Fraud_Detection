@@ -3,7 +3,7 @@
 ## Introduction
 In this project, the aim is to import and use several ML models on [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) (on [Kaggle](https://www.kaggle.com/)) in order to classify fraudulent and non-fraudulent transactions and compare their performances based on how well they can distinguish fraudulent transactions, rather than merely calculating accuracy-scores.
 
-Since only 0.17% of the transaction records in this dataset are fraudulent, it is not plausible to adopt accuracy-score as the evaluation metric. Although, this metric is calculated, other metrics, such as precision and f1-score, are also used.
+Since only 0.17% of the transaction records in this dataset are fraudulent, i.e. the dataset is highly skewed, it is not plausible to adopt accuracy-score as the evaluation metric. Although, this metric is calculated, other metrics, such as precision and f1-score, are also used. In order to address the skewness of the dataset, undersampling technique is adopted.
 
 In this project, the following ML models are used: Decision Tree, Random Forest, Logistic Regression, Gaussian Naive Bayes, KNN, XGBoost, AdaBoost, and a model ensemble.
 
