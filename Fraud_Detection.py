@@ -21,6 +21,7 @@ from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_sc
 from sklearn.metrics import PrecisionRecallDisplay, precision_recall_curve
 from sklearn.metrics import RocCurveDisplay, roc_curve, auc
 from matplotlib import pyplot as plt
+from sys import argv
 
 #sometimes LogisticRegression fails to converge
 #so, the warning message related to this issue is ignored
@@ -84,7 +85,11 @@ def roc_curve_plot(models):
         plt.show()
 
 def main():
-    path = input('Path to the dataset: ')
+    if len(argv) == 1:
+        path = input('Path to the dataset: ')
+    else:
+        path = argv[1]
+    
     global X_train, X_test, y_train, y_test
     X_train, X_test, y_train, y_test = data_loader(path)
     
