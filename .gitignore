@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 data/creditcard.csv
+.DS_Store
